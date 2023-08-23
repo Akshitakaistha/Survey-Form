@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <!-- heading -->
+    <h2>Survey Form</h2>
+    <!-- div -->
+    <div class="container">
+        <form acton="get">
+            
+                <label for="name">Name</label>
+                <input class="a" type="text" id="name" placeholder="name" required>
+                <label for="email">Email</label>
+                <input class="a" type="email" id="email" placeholder="email" required>
+                <label for="age">Age</label>
+                <input class="a" type="number" id="age" placeholder="age" required>
+                <label for="option">Which option best describe you?</label>
+                <select>
+                    <option for="student">Student </option>
+                    <option for="teacher">Teacher</option>
+                    <option for="JobSeeker">JobSeeker</option>
+                    <option for="Employed">Employed</option>
+                    </select>
+            
+                    <label for="ask">Would you recommend Me to your friends?</label>
+                  <br>  <input type="radio" name="yes" id="l" value="Yes">Yes
+                    <br>
+                    <input type="radio" name="no" id="l" value="No">No
+                    <br><input type="radio" nmae="maybe" id="l" value="maybe">Maybe
+
+<br><br>
+<label for="checkbox">Language or Frameworks known: (select all that apply)</label>
+<br><input type="checkbox" name="c" id="k" value="C" >C
+<br><input type="checkbox" name="c++" id="k" value="C++" >C++
+<br><input type="checkbox" name="C#" id="k" value="C#" >C#
+<br><input type="checkbox" name="JAVA" id="k" value="java" >JAVA
+<br><input type="checkbox" name="PYTHON" id="k" value="PYTHON" >PYTHON
+<br><input type="checkbox" name="JAVASCRIPT" id="k" value="JAVASCRIPT" >JAVASCRIPT
+<br><input type="checkbox" name="REACT" id="k" value="REACT" >REACT
+<br><input type="checkbox" name="ANGULAR" id="k" value="ANGULAR" >ANGULAR
+<br><input type="checkbox" name="DJANGO" id="k" value="DJANGO" >DJANGO
+<br><input type="checkbox" name="SPRING" id="k" value="SPRING" >SPRING
+            
+<br><br>
+<label for="comment">Add Comments and Feedback</label>
+<br>
+<br>
+<textarea rows="3" cols="40"></textarea>
+<br>
+<br>
+<button type="submit">Submit</button>
+                </form>
+    </div>
+</body>
+</html>
